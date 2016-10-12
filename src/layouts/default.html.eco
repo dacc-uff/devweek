@@ -1,10 +1,10 @@
 <!doctype html>
-<html itemscope itemtype="http://schema.org/Event">
+<html lang="pt-br" itemscope itemtype="http://schema.org/Event">
 <head>
 
   <title itemprop="name"><%= @conf.name %></title>
 
-  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
   <meta name="author" content="<%= @conf.name %>">
   <meta name="description" content="<%= @conf.description %>">
   <meta name="viewport" content="width=device-width">

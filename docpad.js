@@ -7,34 +7,34 @@ module.exports = {
 
     // Conference info
     conf: {
-      name: "Conference name",
-      description: "Conference description",
-      date: "November 15",
+      name: "III Dev Week",
+      description: "3 dias de palestras e mini-cursos organizada pelo Diret�rio Acad�mico de Ci�ncia da Computa��o - UFF",
+      date: "19-21 de Outubro",
       // If your event is free, just comment this line
-      price: "$100",
-      venue: "Coco Bongo",
-      address: "Boulevard Kukulcan, 30",
-      city: "Cancún",
-      state: "Quintana"
+      //price: "$100",
+      venue: "Instituto de Computa��o UFF",
+      address: "Rua Passo da P�tria 156, Instituto de Computa��o - UFF",
+      city: "Niter�i",
+      state: "RJ"
     },
 
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
     callToAction: {
-        text: "Register now!",
-        link: "http://eventick.com.br"
+        text: "Participe!",
+        link: "http://bit.ly/registro-devweek-2016"
     },
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
-    forkButton: {
+    /*forkButton: {
         repository: "https://github.com/braziljs/conf-boilerplate"
-    },
+    },*/
 
     // Site info
     site: {
       theme: "yellow-swan",
-      url: "http://braziljs.github.io/conf-boilerplate/",
-      googleanalytics: "UA-33656081-1"
+      url: "http://dacc.ic.uff.br/devweek/",
+      googleanalytics: "UA-84262533-1"
     },
 
     // Active sections on the website
@@ -52,136 +52,77 @@ module.exports = {
 
     // Labels which you can translate to other languages
     labels: {
-      about: "About",
-      location: "Location",
-      speakers: "Speakers",
-      schedule: "Schedule",
-      sponsors: "Sponsors",
-      partners: "Partners",
-      contact: "Contact"
+      about: "Sobre",
+      location: "Local",
+      speakers: "Palestrantes",
+      schedule: "Programa��o",
+      sponsors: "Patroc�nio",
+      partners: "Parceiros",
+      contact: "Contato"
     },
 
     // The entire schedule
     schedule: [
-      {
-        name: "Check-in / Breakfast",
-        time: "9h00"
-      },
-      {
-        name: "Linus Torvalds",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Linux Foundation",
-        link: {
-          href: "http://twitter.com/linus",
-          text: "@linus"
+        {
+            name: "Patricia Almeida Ashley",
+            photo: "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4707835P6",
+            bio: "Professora Associada III, vinculada ao Departamento de Análise Geoambiental do Instituto de Geociências, Uff, líder do Núcleo Girassol de Estudos em EcoPolíticas e EConsCiencias.  Atuação interdisciplinar articulando Ciências Sociais Aplicadas e Ciências Humanas, com foco em Política e Planejamento Governamental, Economia Política e Ciência da Informação aplicados ao estudo de políticas, estratégias, governança, economias e culturas orientadas por/para responsabilidade social e desenvolvimento sustentável, em uma perspectiva multiatores, multinível e territorializada. Possui Bacharelado em Ciências Econômicas pela Universidade Federal do Rio de Janeiro (Brasil, 1985), com ênfase em Políticas Públicas; Especialização em Análise e Projeto de Sistemas pelo IBAM (Brasil, 1991); Mestrado em Gestão de Serviços Públicos, como bolsista pelo The British Council, com pesquisa em políticas de desenvolvimento local por estratégias de service level agreement/acordo de serviços na Aston University (UK, 1993); Doutorado em Administração de Empresas, como bolsista pela CAPES, no IAG/PUC-Rio (Brasil, 2002) com tese sobre estratégias de responsabilidade social; Estágio Pós-Doutoral em responsabilidade social, desenvolvimento e equidade no International Institute of Social Studies - ISS/EUR (Holanda, 2011)",
+            company: "Universidade Federal Fluminense",
+            link: {
+              href: "http://www.ecopoliticas.uff.br",
+              text: "Ecopolíticas"
+            },
+            presentation: {
+              title: "Democracia, transparência e qualidade de processos de trabalho: Demandas por soluções em tecnologia de informação",
+              description: "Apresentarei os desafios atuais para avançarmos na cultura e processos democráticos, especialmente os participativos, na esfera pública, tanto em organizações do Estado, quanto em organizações empresariais e organizações sem fins lucrativos.  Nesse sentido, há uma relevância total da tecnologia de informação em conhecer os ambientes informacionais desses contextos que requerem, ao mesmo tempo, a promoção da transparência pública (inclusive em empresas e organizações sem fins lucrativos) e aprofundar a inteligência humana nos parâmetros de qualidade dos processos de trabalho.  Exemplificarei com alguns casos problemáticos e algumas situações inspiradoras de que estamos a caminho, mas temos muito a avançar.",
+              time: "10h00"
+            },
         },
-        presentation: {
-          title: "Digging into a Linux Kernel",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "10h00"
-        }
-      },
-      {
-        name: "Bill Gates",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Microsoft",
-        link: {
-          href: "http://github.com/billy95",
-          text: "@billy95"
+        {
+            name: "Victor Lima Campos",
+            photo: "https://avatars2.githubusercontent.com/u/1539610?v=3&s=466",
+            bio: "Formado em ciência da computação na UFRJ, começou ainda na faculdade a empreender sendo co-fundador do Easyaula, startup que foi vencedora Best Consumer Startup Brazil em 2013. Foi moderador do grupo de Ruby on Rails Brasil por 3 anos no facebook e hoje é consultor da Visagio Tecnologia.",
+            link: {
+                href: "http://github.com/victorlcampos",
+                text: "@victorlcampos"
+            },
+            presentation: {
+                title: "The Rails Doctrine - The Bigger Smile",
+                description: " Conhecer a a filosofia por trás da ferramenta que você está aplicando para resolver um problema é tão importante quanto conhecer a ferramenta em si.<br /> No longo prazo será essa filosofia que guiará a comunidade e o desenvolvimento das próximas versões e entende-la fará com que você escreva código que seja facilmente atualizável.<br /> Nessa palestra trago os 9 pilares que guiam o desenvolvimento dessa framework que revolucionou a web.",
+                time: "10h50"
+            },
         },
-        presentation: {
-          title: "Introducing Windows 12",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "11h00"
-        }
-      },
-      {
-        name: "Lunch",
-        time: "12h00"
-      },
-      {
-        name: "Chuck Norris",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Delta Command",
-        link: {
-          href: "http://twitter.com/littlechuck",
-          text: "@littlechuck"
+        {
+            name: "Everson Alcantara",
+            photo: "https://avatars2.githubusercontent.com/u/1539610?v=3&s=466",
+            bio: "Everson tem 22 anos. É natural de Niteroi e formando em comunicação Social pelo Ibmec RJ. É um dos fundadores do Programa ProLíder, que visa debater o cenário atual brasileiro junto a grandes referências, visando à criação de projetos de melhoria ou empreendimentos que contribuirão para o desenvolvimento do país. Foi um dos responsáveis pela criação da célula de empreendedorismo social no ibmec (Ibmec Social) e, ainda no ensino médio, foi premiado pelo PINCE 2010 por um projeto socioambiental inovador que consistia em utilizar subprodutos da indústria de laticínios como base na produção de pães altamente proteicos para merenda escolar infantil.",
+            link: {
+                href: "http://facebook.com/eversonjunior ",
+                text: "Everson Alcantara"
+            },
+            presentation: {
+                title: "Brasil do amanhã, entre para o time dos que fazem!",
+                description: "O que precisamos para começar um Brasil melhor hoje mesmo? Entenda como jovens podem construir maneiras inteligentes e efetivas de transformar a sociedade.",
+                time: "11h40"
+            },
         },
-        presentation: {
-          title: "How to kill a elephant with one finger",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "13h00"
-        }
-      },
-      {
-        name: "Steve Jobs",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Apple, Inc.",
-        link: {
-          href: "http://github.com/stevie",
-          text: "@stevie"
-        },
-        presentation: {
-          title: "Presenting iPad",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "14h00"
-        }
-      },
-      {
-        name: "Coffee-break",
-        time: "15h00"
-      },
-      {
-        name: "Mark Zuckerberg",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Facebook",
-        link: {
-          href: "http://twitter.com/zuck",
-          text: "@zuck"
-        },
-        presentation: {
-          title: "Revealing Facebook Secrets",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "16h00"
-        }
-      },
-      {
-        name: "Steve Wozniak",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Apple, Inc.",
-        link: {
-          href: "http://twitter.com/woz",
-          text: "@woz"
-        },
-        presentation: {
-          title: "Why do I prefer Android over iPhone",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "17h00"
-        }
-      }
     ],
 
     // List of Sponsors
     sponsors: [
-      {
-        name: "Eventick",
-        logo: "themes/yellow-swan/img/sponsor.png",
-        url: "http://eventick.com.br"
-      }
+      // {
+      //   name: "Eventick",
+      //   logo: "themes/yellow-swan/img/sponsor.png",
+      //   url: "http://eventick.com.br"
+      // }
     ],
 
     // List of Partners
     partners: [
       {
         name: "BrazilJS",
-        logo: "themes/yellow-swan/img/partner.png",
-        url: "http://braziljs.org"
+        logo: "themes/yellow-swan/img/ic-uff.png",
+        url: "http://www.ic.uff.br/"
       }
     ],
 
